@@ -1,0 +1,33 @@
+.avatar {
+    height: 115px;
+    width: 115px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.nav-bar {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2afc6;
+}
+
+.about-paragraph {
+    width: 85%;
+    max-width: 640px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
