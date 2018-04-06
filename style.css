@@ -1,0 +1,18 @@
+.avatar {
+    height: 115px;
+    width: 115px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.about-paragraph {
+    width: 85%;
+    max-width: 640px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
