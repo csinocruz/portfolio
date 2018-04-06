@@ -5,6 +5,21 @@
     border-radius: 50%;
 }
 
+.nav-bar {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2afc6;
+}
+
 .about-paragraph {
     width: 85%;
     max-width: 640px;
