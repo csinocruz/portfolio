@@ -5,20 +5,31 @@
     border-radius: 50%;
 }
 
-.nav-bar {
+/* .nav-bar {
     font-family: 'Creepster', cursive;
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+.nav-bar ul {
+    text-align: center;
+}
+.nav-bar li {
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+} */
+
+.about-link {
     font-size: 30px;
-    letter-spacing: 1px;
+    margin-top: 15px;
 }
 
 a {
+    font-family: 'Creepster', cursive;
     color: #bfbfbf;
     text-decoration: none;
 }
-
-a:hover {
-    color: #f2afc6;
-}
+a:hover { color: #f2afc6; }
 
 .about-paragraph {
     width: 85%;
