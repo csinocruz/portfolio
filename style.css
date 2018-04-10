@@ -19,18 +19,13 @@
     padding: 15px;
 } */
 
-.about-link {
-    font-size: 30px;
-    margin-top: 15px;
-    letter-spacing: 2px;
+h1 {
+    font-family: 'Creepster', cursive;
 }
 
-a {
-    font-family: 'Creepster', cursive;
-    color: #d0d0d0;
-    text-decoration: none;
+.intro {
+    height: 100vh;
 }
-a:hover { color: #f2afc6; }
 
 .about-paragraph {
     width: 85%;
@@ -45,3 +40,16 @@ a:hover { color: #f2afc6; }
     line-height: 36px;
     letter-spacing: 2px;
 }
+
+.about-link {
+    font-size: 30px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+
+a {
+    font-family: 'Creepster', cursive;
+    color: #d0d0d0;
+    text-decoration: none;
+}
+a:hover { color: #f2afc6; }
