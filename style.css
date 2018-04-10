@@ -19,35 +19,37 @@
     padding: 15px;
 } */
 
-h1 {
-    font-family: 'Creepster', cursive;
+body {
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: 100; */
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 
 .intro {
     height: 100vh;
 }
 
-.about-paragraph {
+.intro-paragraph {
     width: 85%;
     max-width: 640px;
     position: absolute;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Raleway', sans-serif;
     font-weight: 100;
     font-size: 22px;
     line-height: 36px;
     letter-spacing: 2px;
 }
 
-.about-link {
+.more-link {
     font-size: 30px;
     margin-top: 15px;
     letter-spacing: 2px;
 }
 
-a {
+h1, a {
     font-family: 'Creepster', cursive;
     color: #d0d0d0;
     text-decoration: none;
