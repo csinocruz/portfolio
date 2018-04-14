@@ -56,6 +56,39 @@ h1, a {
 }
 a:hover { color: #f2afc6; }
 
+.skills-container {
+    max-width: 450px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.skills-item {
+    background: tomato;
+    padding: 5px;
+    width: 60px;
+    margin-top: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.skills-item img {
+    height: 20%;
+}
+
 .social-media {
     text-align: center;
 }
