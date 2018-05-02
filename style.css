@@ -1,6 +1,5 @@
 .avatar {
-    height: 115px;
-    width: 115px;
+    width: 20%;
     margin-bottom: 10px;
     border-radius: 50%;
 }
@@ -27,37 +26,67 @@ body {
 }
 
 .intro {
-    height: 100vh;
+    height: 130vh;
+    margin-top: 11%;
 }
 
 .intro-paragraph {
-    width: 85%;
+    width: 90%;
+    margin: auto;
     max-width: 640px;
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    min-width: 300px;
     font-weight: 100;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 1.1em;
+    line-height: 35px;
     letter-spacing: 2px;
 }
 
 .more-link {
     font-size: 30px;
-    margin-top: 15px;
+    margin-top: 6px;
     letter-spacing: 2px;
+    /* height: 200px;;
+    width: 200px;
+    background-color: blue; */
+    float: right;
+}
+
+.more-link > a {
+    /* float: right; */
+    padding-top: 0;
+}
+
+.crystal {
+    margin: auto;
 }
 
 h1, a {
     font-family: 'Creepster', cursive;
     color: #d0d0d0;
     text-decoration: none;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    line-height: 40px;
+    text-align: center;
 }
 a:hover { color: #f2afc6; }
 
+.quote {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about, .skills, .applications, .contact {
+    width: 90%;
+    /* max-width: 640px; */
+    margin: auto;
+    line-height: 25px;
+}
+
 .skills-container {
-    max-width: 450px;
+    max-width: 622px;
     padding: 0;
     margin: 0 auto;
     list-style: none;
@@ -73,20 +102,20 @@ a:hover { color: #f2afc6; }
 }
 
 .skills-item {
-    background: tomato;
-    padding: 5px;
-    width: 60px;
-    margin-top: 10px;
-    
-    line-height: 100px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
+    /* background: tomato; */
+    padding: 20px;
+    width: 93px;
+    line-height: 50px;
     text-align: center;
 }
 
-.skills-item img {
-    height: 20%;
+.skills-item > h1 {
+    color: black;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
 }
 
 .social-media {
