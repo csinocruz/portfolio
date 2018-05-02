@@ -118,6 +118,30 @@ a:hover { color: #f2afc6; }
     font-weight: 100;
 }
 
+
+.apps-container {
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 900px;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.apps-item {
+    background: chocolate;
+    list-style-type: none;
+    width: 450px;
+    text-align: center;
+}
+
 .social-media {
     text-align: center;
 }
