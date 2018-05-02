@@ -1,3 +1,5 @@
+* { padding: 0; }
+
 .avatar {
     width: 20%;
     margin-bottom: 10px;
@@ -147,6 +149,27 @@ a:hover { color: #f2afc6; }
     margin-top: 22px;
 }
 
-.social-media {
+.contact-container { 
+    text-align: center; 
+}
+
+.contact-item {
+    display: inline;
+    margin: 20px;
+    color: #b1b1b1;
+}
+
+.contact-item:hover, 
+.socialmedia-item:hover {
+    color: #f2afc6;
+}
+
+.socialmedia-container {
     text-align: center;
+}
+.socialmedia-item {
+    font-size: 2em;
+    display: inline;
+    text-align: center;
+    color: #b1b1b1;
 }
