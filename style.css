@@ -1,5 +1,5 @@
 * { 
-    /* margin: 0; */
+    margin: 0;
     padding: 0; 
 }
 
@@ -61,20 +61,58 @@ section {
     font-size: 11vw;
     letter-spacing: 5px;
     line-height: 82%;
-    margin-bottom: 0;
+    margin-bottom: -13%;
     margin-right: 13%;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    text-shadow: 2px 2px 8px #4a4a4a;
 }
 
 .about-photo {
-    width: 75%;
+    width: 100%;
     opacity: .8;
-    margin-top: -19%;
+    margin-bottom: -7px;
 }
-.about {
-    /* text-align: center */
+
+.mainimg {
+    position: relative;
+    background-color: orange;
+    width: 75%;
 }
+
+div#hover-resume:hover {
+    opacity: 1;
+}
+
+#hover-resume {
+    /* ORIGINAL BACKGROUND COLOR
+    background-color: #e4dde0; */
+
+    /* TEST COLOR */
+    background-color: #8BC34A;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    /* margin-top: -19%; */
+    opacity: 0;
+    z-index: 1;
+    
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+#hover-resume > span {
+    display: block;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 5vw;
+    font-weight: 100;
+}
+
 p {
     text-align: justify;
 }
@@ -213,6 +251,7 @@ a:hover { color: #f2afc6; }
 
 .socialmedia-container {
     text-align: center;
+    margin: 35px 0 20px 0;
 }
 .socialmedia-item {
     font-size: 2em;
@@ -222,6 +261,7 @@ a:hover { color: #f2afc6; }
     margin: 0 20px 0 20px;
 }
 
+/* CONTACT FORM START */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -252,4 +292,22 @@ input[type=submit]:hover {
     padding: 20px;
     width: 80%;
     margin: auto;
+}
+/* CONTACT FORM END */
+
+footer {
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 100%;
+}
+
+.socialmedia {
+    padding-top: 1%;
+}
+
+.copyright {
+    letter-spacing: 5px;
+    text-align: center;
+    color: #b1b1b1;
+    font-weight: 100;
 }

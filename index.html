@@ -34,8 +34,16 @@
     <section>
         <h1 class="name" id="about"><span class="first">Francesca</span> <span class="last">Sinocruz</span></h1>
         <div class="about">
-            
-            <img src="black-white-profile-photo.JPEG" class="about-photo">
+            <div class="mainimg">
+                <div id="hover-resume">
+                    <span>
+                        resume <i class="fas fa-file-pdf"></i>
+                    </span>   
+                </div>
+                <img src="black-white-profile-photo.JPEG" class="about-photo">
+            </div>
+
+            <br>
             <!-- DUMMY DATA START -->
             <p>
                 Macaroon biscuit jelly cupcake muffin sweet roll halvah ice cream. 
@@ -49,6 +57,11 @@
                 donut caramels.
             </p>
             <!-- DUMMY DATA END -->
+        </div>
+        
+
+
+
             <!-- <p>
                     After graduating from Vanguard University with a bachelor’s degree in business, I 
                     became a Grooming Salon Manager for Healthy Spot. There is a lot that 
@@ -117,7 +130,6 @@
                     In return, I promise to deliver quality work through my resilience and passion for 
                     solving complex problems no matter how bleak (or delightful!) the situation may seem. 
                 </p> -->
-        </div>
     </section>
     <!-- SKILLS -->
     <section>
@@ -196,36 +208,42 @@
             <div class="container">
                 <form action="/action_page.php">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
                 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Your email...">
                 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <label for="message">Subject</label>
+                    <textarea id="message" name="message" placeholder="Say hello..." style="height:100px"></textarea>
                 
                     <input type="submit" value="Submit">
                 </form>
             </div>
-
        </div>
     </section>
-    <!-- SOCIAL MEDIA -->
-    <section>
+    <footer>
+        <!-- SOCIAL MEDIA -->
         <div class="socialmedia">
-            <h1>Social Media</h1>
-            <ul class="socialmedia-container">
-                <!-- LINKEDIN -->
-                <li class="socialmedia-item"><i class="fab fa-linkedin"></i></li>
-                <!-- GITHUB -->
-                <li class="socialmedia-item"><i class="fab fa-github-alt"></i></li>
-                <!-- INSTAGRAM -->
-                <li class="socialmedia-item"><i class="fab fa-instagram"></i></li>
-                <!-- TWITTER -->
-                <li class="socialmedia-item"><i class="fab fa-twitter"></i></li>
-            </ul>
+                <ul class="socialmedia-container">
+                    <!-- LINKEDIN -->
+                    <li class="socialmedia-item"><i class="fab fa-linkedin"></i></li>
+                    <!-- GITHUB -->
+                    <li class="socialmedia-item"><i class="fab fa-github-alt"></i></li>
+                    <!-- INSTAGRAM -->
+                    <li class="socialmedia-item"><i class="fab fa-instagram"></i></li>
+                    <!-- TWITTER -->
+                    <li class="socialmedia-item"><i class="fab fa-twitter"></i></li>
+                </ul>
         </div>
-    </section>
+        <div class="copyright">
+            <span>francesca sinocruz</span>
+            <br>
+            <span>2018</span>
+        </div>
+    </footer>
 </body>
 </html>
 
