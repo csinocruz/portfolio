@@ -71,7 +71,6 @@ section {
     width: 75%;
     opacity: .8;
     margin-top: -19%;
-    box-shadow: 4px 4px 8px 0px #e8dd98;
 }
 .about {
     /* text-align: center */
@@ -184,12 +183,27 @@ a:hover { color: #f2afc6; }
 
 .contact-container { 
     text-align: center; 
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 900px;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .contact-item {
     display: inline;
-    margin: 20px;
+    margin: 10px;
     color: #b1b1b1;
+    list-style-type: none;
+    text-align: center;
 }
 
 .contact-item:hover, 
@@ -205,4 +219,37 @@ a:hover { color: #f2afc6; }
     display: inline;
     text-align: center;
     color: #b1b1b1;
+    margin: 0 20px 0 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #b1b1b1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #f2afc6;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
 }
