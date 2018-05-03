@@ -1,4 +1,7 @@
-* { padding: 0; }
+* { 
+    /* margin: 0; */
+    padding: 0; 
+}
 
 .avatar {
     width: 20%;
@@ -37,6 +40,10 @@ section {
     margin-top: 11%;
 }
 
+.fa-paw {
+    color: #b1b1b1;
+}
+
 .intro-paragraph {
     width: 90%;
     margin: auto;
@@ -48,9 +55,34 @@ section {
     letter-spacing: 2px;
 }
 
+.name {
+    color: #f2afc6;
+    text-align: right;
+    font-size: 11vw;
+    letter-spacing: 5px;
+    line-height: 82%;
+    margin-bottom: 0;
+    margin-right: 13%;
+    position: relative;
+    z-index: 1;
+}
+
+.about-photo {
+    width: 75%;
+    opacity: .8;
+    margin-top: -19%;
+    box-shadow: 4px 4px 8px 0px #e8dd98;
+}
+.about {
+    /* text-align: center */
+}
+p {
+    text-align: justify;
+}
+
 .more-link {
     font-size: 30px;
-    margin-top: 6px;
+    /* margin-top: 8%; */
     letter-spacing: 2px;
     /* height: 200px;;
     width: 200px;
@@ -140,7 +172,8 @@ a:hover { color: #f2afc6; }
 .apps-item {
     /* background: chocolate; */
     list-style-type: none;
-    width: 450px;
+    width: 45%;
+    min-width: 300px;
     text-align: center;
 }
 
