@@ -65,6 +65,7 @@ section {
     margin-right: 13%;
     position: relative;
     z-index: 1;
+    text-shadow: 2px 2px 8px #4a4a4a;
 }
 
 .about-photo {
@@ -222,6 +223,7 @@ a:hover { color: #f2afc6; }
     margin: 0 20px 0 20px;
 }
 
+/* CONTACT FORM START */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -253,3 +255,4 @@ input[type=submit]:hover {
     width: 80%;
     margin: auto;
 }
+/* CONTACT FORM END */
