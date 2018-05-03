@@ -192,6 +192,13 @@ a:hover { color: #f2afc6; }
 .apps-item img {
     width: 90%;
     margin-top: 22px;
+    transition: filter .5s ease-out;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.apps-item img:hover {
+    filter: none;
 }
 
 .contact-container { 
