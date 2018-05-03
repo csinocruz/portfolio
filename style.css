@@ -92,6 +92,11 @@ div#hover-resume:hover {
     margin-top: -19%;
     opacity: 0;
     z-index: 1;
+    
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
 #hover-resume > span {
     display: block;
