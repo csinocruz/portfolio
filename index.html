@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Creepster|Raleway:100,400" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <?php include('form_process.php'); ?>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <link href="assets/favicon-pink-heart.ico" rel="icon" type="image/x-icon" />
     <title>f r a n c e s c a | s i n o c r u z</title>
@@ -52,7 +53,7 @@
             </div>
 
             <br>
-            <!-- DUMMY DATA START -->
+            <!-- ABOUT ME TEXT START -->
             <p>
                 I am a web developer who is inspired by all things tech. I have developed 
                 both playful and informative applications and have worked on a team to 
@@ -72,7 +73,10 @@
                 skills to build effective and useful products while leveraging my personal 
                 skills to enhance client and colleague experiences. 
             </p>
-            <!-- DUMMY DATA END -->
+            <p>
+                <a href="assets/online-resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a><br>
+            </p>
+            <!-- ABOUT ME TEXT END -->
 
             <!-- ******************** REAL ABOUT ME SECTION START ******************** -->
             <!-- <p>
@@ -229,18 +233,15 @@
                 <li class="contact-item"><a href="tel:714-472-6813"><i class="fas fa-mobile-alt"></i> (714) 472-6813</a></li>
             </ul>
             <div class="container">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-                
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
+                <form action="contactform.php" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Full name">
+            
                     <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Your email...">
+                    <input type="text" id="email" name="email" placeholder="Your email...">
                 
-                    <label for="message">Subject</label>
-                    <textarea id="message" name="message" placeholder="Say hello..." style="height:100px"></textarea>
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" name="message" placeholder="Say hello..." style="height:100px"></textarea>
                 
                     <input type="submit" value="Submit">
                 </form>
@@ -261,6 +262,8 @@
                     <li class="socialmedia-item"><a href="https://www.instagram.com/peanutbutternpuppy/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     <!-- TWITTER -->
                     <li class="socialmedia-item"><a href="https://twitter.com/_codeblooded" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <!-- RESUME -->
+                    <li class="socialmedia-item"><a href="assets/online-resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
                 </ul>
         </div>
         <div class="copyright">
