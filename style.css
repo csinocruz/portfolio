@@ -97,6 +97,10 @@ div#hover-resume:hover {
     font-weight: 100;
 }
 
+.resume-link {
+    font-size: 2em;
+}
+
 p {
     text-align: justify;
     margin-top: 18px;
