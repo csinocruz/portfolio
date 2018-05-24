@@ -97,6 +97,11 @@ div#hover-resume:hover {
     font-weight: 100;
 }
 
+.resume-link {
+    font-weight: 100;
+    text-align: center;
+}
+
 p {
     text-align: justify;
     margin-top: 18px;
@@ -322,8 +327,3 @@ footer {
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
-
-.resume-link {
-    font-weight: 100;
-    text-align: center;
-}
