@@ -1,6 +1,6 @@
 <?php
     require_once('email_config.php');
-    require('phpmailer/PHPMailer/PHPMailerAutoload.php');
+    require('PHPMailerAutoload.php');
     $mail = new PHPMailer;
     // $mail->SMTPDebug = 0;
 
