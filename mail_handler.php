@@ -43,7 +43,7 @@ $mail->Subject = $_POST['subject'];
 $title = '<h2>Contact Form Submission</h2>';
 $name = $_POST['name'];
 $subject = $_POST['subject'];
-$message = $_POST['body'];
+$message = $_POST['message'];
 $mail->Body = $title . 'Subject: ' . $subject . '<br>From: ' . $name . '<br>Message: <br><br>' . $message;
                 
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
