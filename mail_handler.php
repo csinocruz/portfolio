@@ -4,7 +4,7 @@ require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 
 // --- SERVER SETTINGS --- 
 $mail = new PHPMailer;
-$mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
+$mail->SMTPDebug = 4;           // Enable verbose debug output. Change to 0 to disable debugging output.
 
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
@@ -14,7 +14,7 @@ $mail->SMTPAuth = true;         // Enable SMTP authentication
 $mail->Username = EMAIL_USER;   // SMTP username
 $mail->Password = EMAIL_PASS;   // SMTP password
 $mail->SMTPSecure = 'tls';      // Enable TLS encryption, `ssl` also accepted, but TLS is a newer more-secure encryption
-$mail->Port = 465;              // TCP port to connect to
+$mail->Port = 587;              // TCP port to connect to
 $options = array(
     'ssl' => array(
         'verify_peer' => false,
