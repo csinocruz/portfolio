@@ -4,7 +4,7 @@ require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 
 // --- SERVER SETTINGS --- 
 $mail = new PHPMailer;
-$mail->SMTPDebug = 1;           // Enable verbose debug output. Change to 0 to disable debugging output.
+$mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
 
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
