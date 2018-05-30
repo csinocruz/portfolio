@@ -55,6 +55,6 @@ if(!$mail->send()) {
     echo 'Message could not be sent.';
     // echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo '<span class=\"name\">Message has been sent</span>';
+    echo include('message_sent.php');
 }
 ?>
