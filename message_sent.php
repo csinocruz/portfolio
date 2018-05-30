@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
 </head>
 <style>
     html, body { margin: 0; padding: 0; font-family: 'Raleway', sans-serif; }
@@ -21,6 +21,7 @@
     .back {
         font-family: 'Raleway', sans-serif;
         font-weight: 100;
+        font-size: 100%;
     }
 </style>
 <body>
