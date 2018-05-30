@@ -22,6 +22,7 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 100;
         font-size: 100%;
+        text-decoration-line: underline;
     }
 </style>
 <body>
