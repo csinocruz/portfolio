@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <?php
 require_once('email_config.php');
 require('phpmailer/PHPMailer/PHPMailerAutoload.php');
@@ -52,8 +53,8 @@ $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    // echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo 'Message has been sent';
+    echo '<span class=\"name\">Message has been sent</span>';
 }
 ?>
