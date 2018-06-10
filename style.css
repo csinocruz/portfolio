@@ -16,35 +16,29 @@ body {
     letter-spacing: 1px;
 }
 
-section {
-    /* margin-top: 150px; */
-    margin-bottom: 150px;
-}
+section { margin-bottom: 5%;}
 
-.intro {
+#header {
     height: 100vh;
     margin-top: 11%;
-}
-
-.fa-paw {
-    color: #b1b1b1;
+    padding-bottom: 50px;
 }
 
 .intro-paragraph {
     width: 90%;
     margin: auto;
     max-width: 640px;
-    min-width: 300px;
     font-weight: 100;
     font-size: 1.1em;
     line-height: 35px;
     letter-spacing: 2px;
 }
+.fa-paw { color: #b1b1b1; }
 
 .name {
     color: #f2afc6;
     text-align: right;
-    font-size: 11vw;
+    font-size: 9vw;
     letter-spacing: 5px;
     line-height: 82%;
     margin-bottom: -13%;
@@ -54,27 +48,22 @@ section {
     text-shadow: 2px 2px 8px #4a4a4a;
 }
 
+.mainimg {
+    position: relative;
+    width: 75%;
+}
 .about-photo {
     width: 100%;
     opacity: .8;
     margin-bottom: -7px;
 }
 
-.mainimg {
-    position: relative;
-    width: 75%;
-}
-
-div#hover-resume:hover {
+#hover-resume:hover {
     opacity: .7;
 }
 
 #hover-resume {
-    /* ORIGINAL BACKGROUND COLOR */
     background-color: #e4dde0;
-
-    /* TEST COLOR */
-    /* background-color: #8BC34A; */
     position: absolute;
     width: 100%;
     height: 100%;
@@ -97,36 +86,35 @@ div#hover-resume:hover {
     font-weight: 100;
 }
 
-.resume-link {
-    font-size: 2em;
-}
+/* resume link at the end of about paragraphs */
+.resume-link { font-size: 2em; }
 
 p {
     text-align: justify;
-    margin-top: 18px;
-    /* margin: 18px 15% 10px 15%; */
+    font-weight: 100;
 }
 
+a { 
+    text-decoration: none;
+    color: #d0d0d0;
+}
+a:hover { color: #f2afc6; }
 .more-link {
-    font-size: 30px;
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
     letter-spacing: 2px;
     float: right;
 }
 
-.more-link > a {
-    padding-top: 0;
-}
-
-h1, a {
+h1 {
     font-family: 'Creepster', cursive;
     color: #d0d0d0;
-    text-decoration: none;
     font-size: 2.5rem;
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
     line-height: 40px;
     text-align: center;
 }
-a:hover { color: #f2afc6; }
+
 
 .quote {
     font-family: 'Shadows Into Light', cursive;
@@ -136,12 +124,27 @@ a:hover { color: #f2afc6; }
 }
 
 .about, .skills, .applications, .contact {
-    width: 73%;
+    /* width: 73%;
     min-width: 285px;
     margin: auto;
-    line-height: 25px;
+    line-height: 25px; */
 }
 
+.about-container {
+    max-width: 860px;
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 30px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+}
+.about-banner { padding: 0 0 0 10%; }
 .skills-container {
     max-width: 860px;
     padding: 0;
