@@ -16,10 +16,10 @@ body {
     letter-spacing: 1px;
 }
 
-section { margin-bottom: 5%;}
+section { margin-bottom: 8%;}
 
 #header {
-    height: 100vh;
+    height: 90vh;
     margin-top: 11%;
     padding-bottom: 50px;
 }
@@ -131,7 +131,7 @@ h1 {
 }
 
 .about-container {
-    max-width: 860px;
+    max-width: 980px;
     padding: 20px;
     margin: 0 auto;
     line-height: 30px;
