@@ -10,9 +10,9 @@ body {
     letter-spacing: 1px;
 }
 
-/* section {
+section {
     margin: 10% 0;
-} */
+}
 
 #header {
     height: 100vh;
@@ -45,7 +45,7 @@ body {
     letter-spacing: 5px;
     line-height: 82%;
     margin-bottom: -13%;
-    margin-right: 13%;
+    /* margin-right: 13%; */
     position: relative;
     z-index: 2;
     text-shadow: 2px 2px 8px #4a4a4a;
@@ -102,7 +102,7 @@ a {
 a:hover { color: #f2afc6; }
 .more-link {
     font-family: 'Creepster', cursive;
-    font-size: 20px;
+    font-size: 4vmin;
     letter-spacing: 2px;
     float: right;
     margin-top: 3%;
@@ -139,7 +139,7 @@ h1 {
     
     -webkit-flex-flow: row wrap;
 }
-.about-banner { padding: 0 0 0 10%; }
+.about-banner { padding: 10% 0; }
 .skills-container {
     max-width: 860px;
     padding: 0;
