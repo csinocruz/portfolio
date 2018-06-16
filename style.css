@@ -37,11 +37,6 @@ section {
 }
 .fa-paw { color: #b1b1b1; }
 
-.more-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .name {
     color: #f2afc6;
     text-align: right;
@@ -104,12 +99,15 @@ a {
     color: #d0d0d0;
 }
 a:hover { color: #f2afc6; }
+
 .more-link {
     font-family: 'Creepster', cursive;
     font-size: 4vmin;
     letter-spacing: 2px;
-    /* float: right; */
-    margin-top: 40px;
+}
+.more-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
