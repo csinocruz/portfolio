@@ -28,6 +28,7 @@ body {
     /* margin: 15% 25%; */
     font-size: 2vmin;
     line-height: 160%;
+
     margin: 0;
     position: absolute;
     top: 45%;
@@ -325,7 +326,7 @@ footer {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .intro-paragraph {
         /* margin: 13%; */
-        font-size: 3vw;
+        /* font-size: 3vw; */
     }
 }
 
