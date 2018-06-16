@@ -45,7 +45,7 @@ section {
     letter-spacing: 5px;
     line-height: 82%;
     margin-bottom: -13%;
-    /* margin-right: 13%; */
+    margin-left: 13%;
     position: relative;
     z-index: 2;
     text-shadow: 2px 2px 8px #4a4a4a;
