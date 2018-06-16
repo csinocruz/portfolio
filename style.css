@@ -311,3 +311,27 @@ footer {
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+
+/* ---------- MEDIA QUERIES START ---------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .intro-paragraph {
+        margin: 13%;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    .intro-paragraph {
+        /* margin: 0; */
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .intro-paragraph {
+        /* margin: 0; */
+    }
+}
