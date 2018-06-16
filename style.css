@@ -37,6 +37,11 @@ section {
 }
 .fa-paw { color: #b1b1b1; }
 
+.more-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .name {
     color: #f2afc6;
     text-align: right;
