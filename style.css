@@ -25,16 +25,16 @@ body {
 }
 
 .intro-paragraph {
-    /* margin: 15% 25%; */
+    margin: 15% 25%;
     font-size: 2vmin;
     line-height: 160%;
 
-    margin: 0;
+    /* margin: 0;
     position: absolute;
     top: 42%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 .fa-paw { color: #b1b1b1; }
 
@@ -325,7 +325,7 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .intro-paragraph {
-        /* margin: 13%; */
+        margin: 13%;
         font-size: 3vw;
     }
 }
