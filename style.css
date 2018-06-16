@@ -28,7 +28,6 @@ section {
     margin: 15% 32%;
     font-size: 2vmin;
     line-height: 160%;
-    padding-bottom: 5%;
     /* margin: 0;
     position: absolute;
     top: 42%;
@@ -104,8 +103,8 @@ a:hover { color: #f2afc6; }
     font-family: 'Creepster', cursive;
     font-size: 4vmin;
     letter-spacing: 2px;
-    float: right;
-    margin-top: 3%;
+    /* float: right; */
+    margin-top: 40px;
 }
 
 h1 {
