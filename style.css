@@ -20,16 +20,16 @@ section { margin-bottom: 8%;}
 
 #header {
     height: 90vh;
-    margin-top: 11%;
+    margin-top: 10%;
     padding-bottom: 50px;
 }
 
 .intro-paragraph {
-    width: 90%;
+    width: 38%;
     margin: auto;
     max-width: 640px;
     font-weight: 100;
-    font-size: 1.1em;
+    font-size: 1vw;
     line-height: 35px;
     letter-spacing: 2px;
 }
