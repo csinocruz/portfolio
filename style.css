@@ -31,7 +31,7 @@ body {
 
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -326,7 +326,7 @@ footer {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .intro-paragraph {
         /* margin: 13%; */
-        /* font-size: 3vw; */
+        font-size: 3vw;
     }
 }
 
