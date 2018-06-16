@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    console.log('we are here');
+    console.log('y u here tho?? u ain\'t got no bidness bein here');
+    console.log('shoo!');
     $('a[href*=\\#]:not([href=\\#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
             || location.hostname == this.hostname) {
@@ -15,3 +16,4 @@ $(document).ready(function() {
         }
     });
 });
+
