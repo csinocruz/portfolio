@@ -1,3 +1,50 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-family: 'Asap', sans-serif;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    background-color: #b70000;
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    -ms-transform: rotate(-6deg); /* IE 9 */
+    -webkit-transform: rotate(-6deg); /* Safari 3-8 */
+    transform: rotate(-6deg);
+}
+
+.inner {
+    background-color: white;
+    height: 110px;
+    margin-top: 13px;
+    border-radius: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 85px;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari 3-8 */
+    transform: rotate(-10deg);
+}
+
+span {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 5px;
 }
