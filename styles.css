@@ -8,6 +8,10 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .outer {
     background-color: #b70000;
     color: white;
