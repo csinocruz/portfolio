@@ -6,11 +6,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#shrug {
+    color: #2b2b2b;
+    text-align: center;
 }
 
 #name-container {
-    margin-top: 10%;
-    height: 200px;
+    height: 20px;
     width: 400px;
 }
   
