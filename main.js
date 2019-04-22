@@ -10,7 +10,7 @@ $(document).ready(function(){
 var array = [];
 var playerArray = [];
 
-function pickRandomColor(){
+function addRandomColor(){
     var randomColor = Math.floor(Math.random() * 4)+1;
 
     switch(randomColor){
@@ -48,7 +48,11 @@ function checkArrays(){
         if(array[i] === playerArray[i]){
             console.log('CORRECT!')
         } else {
-            console.log('WRONG!');
+            console.log('sorry, you wrong');
+            return;
         }
+        console.log('next round!');
     }
+    addRandomColor();
+    playerArray = [];
 }
