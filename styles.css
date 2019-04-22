@@ -1,61 +1,211 @@
 body {
-    background-color: lightgrey;
-    font-family: 'Asap', sans-serif;
-
+    background-color: black;
     height: 100vh;
+
+
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-}
-
-.message {
-    margin-top: 30px;
-    font-size: 1.5vh;
-    color: #848282;
-}
-
-.outer {
-    background-color: #b70000;
-    color: white;
-    height: 200px;
-    width: 300px;
+#shrug {
+    color: #2b2b2b;
     text-align: center;
-    padding-top: 10px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    -ms-transform: rotate(-6deg); /* IE 9 */
-    -webkit-transform: rotate(-6deg); /* Safari 3-8 */
-    transform: rotate(-6deg);
 }
 
-.inner {
-    background-color: white;
-    height: 110px;
-    margin-top: 13px;
-    border-radius: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#name-container {
+    height: 20px;
+    width: 400px;
 }
+  
+  
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
 
-.name {
-    color: black;
-    font-family: 'Amatic SC', cursive;
-    font-size: 85px;
-    -ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Safari 3-8 */
-    transform: rotate(-10deg);
+    /*Create overlap*/
+    margin: 0;
+    line-height: 0;
+
+    /*Animation*/
+    animation: glitch1 3.5s infinite;
 }
-
-span {
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 5px;
+  
+h1:nth-child(2) {
+    color: #00d8ff;
+    animation: glitch2 3.5s infinite;
+  }
+  
+h1:nth-child(3) {
+    color: #ff0000;
+    animation: glitch3 3.5s infinite;
+  
+}
+  
+@keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+@keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-6px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-6px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+}
+  
+@keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(6px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(6px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
 }
