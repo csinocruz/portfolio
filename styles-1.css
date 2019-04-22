@@ -113,7 +113,7 @@ h1:nth-child(3) {
       opacity: 0.25;
     }
     30% {
-      transform: translate(-5px, -2px);
+      transform: translate(-6px, -2px);
       opacity: 0.5;
     }
     35% {
@@ -125,7 +125,7 @@ h1:nth-child(3) {
       opacity: 0.25;
     }
     55% {
-      transform: translate(-5px, -1px);
+      transform: translate(-6px, -1px);
       opacity: 0.5;
     }
     50% {
@@ -168,7 +168,7 @@ h1:nth-child(3) {
       opacity: 0.25;
     }
     30% {
-      transform: translate(5px, 2px);
+      transform: translate(6px, 2px);
       opacity: 0.5;
     }
     35% {
@@ -180,7 +180,7 @@ h1:nth-child(3) {
       opacity: 0.25;
     }
     55% {
-      transform: translate(5px, 1px);
+      transform: translate(6px, 1px);
       opacity: 0.5;
     }
     50% {
