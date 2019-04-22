@@ -237,10 +237,9 @@ h1.name:nth-child(3) {
 .color-container {
   border: 1px solid red;
   margin: auto;
-  margin-bottom: 50px;
   /* padding: 20px; */
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
 
   display: flex;
   justify-content: space-around;
@@ -249,8 +248,8 @@ h1.name:nth-child(3) {
 }
 
 .box {
-  height: 300px;
-  width: 300px;
+  height: 45%;
+  width: 45%;
   /* margin: 20px; */
   border: 1px solid blueviolet;
 }
