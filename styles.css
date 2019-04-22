@@ -1,7 +1,27 @@
-body {
-    background-color: black;
-    height: 100vh;
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  background-color: black;
+  color: #c7c2b8;
+  margin: 0;
+}
+
+h1 { 
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 55px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+ 
+p { 
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+section.welcome-area {
+    height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -9,18 +29,18 @@ body {
     flex-direction: column;
 }
 
-#shrug {
-    color: #2b2b2b;
-    text-align: center;
-}
-
 #name-container {
     height: 20px;
     width: 400px;
 }
+
+.enter img {
+  height: 180px;
+  margin-top: 15px;
+}
+
   
-  
-h1 {
+h1.name {
     text-align: center;
     color: #fff;
     font-size: 30px;
@@ -34,12 +54,12 @@ h1 {
     animation: glitch1 3.5s infinite;
 }
   
-h1:nth-child(2) {
+h1.name:nth-child(2) {
     color: #00d8ff;
     animation: glitch2 3.5s infinite;
   }
   
-h1:nth-child(3) {
+h1.name:nth-child(3) {
     color: #ff0000;
     animation: glitch3 3.5s infinite;
   
@@ -209,3 +229,33 @@ h1:nth-child(3) {
       opacity: 0.25;
     }
 }
+
+#next {
+  height: 100vh;
+}
+
+.color-container {
+  border: 1px solid red;
+  margin: auto;
+  margin-bottom: 50px;
+  /* padding: 20px; */
+  width: 700px;
+  height: 700px;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  /* margin: 20px; */
+  border: 1px solid blueviolet;
+}
+
+.green { background-color: chartreuse; }
+.pink { background-color: pink; }
+.yellow { background-color: yellow; }
+.orange { background-color: orange; }
