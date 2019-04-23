@@ -15,16 +15,16 @@ function addRandomColor(){
 
     switch(randomColor){
         case 1: 
-        randomColor = 'green box';
+        randomColor = 'green';
         break;
         case 2: 
-        randomColor = 'pink box';
+        randomColor = 'pink';
         break;
         case 3: 
-        randomColor = 'yellow box';
+        randomColor = 'yellow';
         break;
         case 4: 
-        randomColor = 'orange box';
+        randomColor = 'orange';
         break;
         default:
         console.log('something broke');
@@ -37,10 +37,44 @@ function addColorToArray(colorValue){
     playerArray.push(colorValue);
 }
 
+/* example
+array = ["green","yellow","pink"];
+*/
 function pressPlay(){
-    for(var i=0; i<array.length; i++){
-        console.log(array[i]);
-    }
+
+
+    for(var i=0;i<array.length; i++){
+        var color = array[i];
+        //setTimeout(function(){
+            switch(color){
+                case 'green': 
+                    $('.green.box').css('background-color','blue');
+                    setTimeout(function(){
+                        $('.green.box').css('background-color','chartreuse');
+                    },1000*(i+1));
+                break;
+                case 'pink': 
+                    $('.pink.box').css('background-color','blue');
+                    setTimeout(function(){
+                        $('.pink.box').css('background-color','pink');
+                    },1000*(i+1));
+                case 'yellow': 
+                    randomColor = 'yellow';
+                break;
+                case 'orange': 
+                    randomColor = 'orange';
+                break;
+                default:
+                console.log('something broke');
+            } // end of switch
+        //},1000*(i+1));
+    } //end of for loop
+    
+
+} // end of pressPlay function
+
+function changeColor(){
+
 }
 
 function checkArrays(){
@@ -48,11 +82,11 @@ function checkArrays(){
         if(array[i] === playerArray[i]){
             console.log('CORRECT!')
         } else {
-            console.log('sorry, you wrong');
+            console.log('SORRY, GAME OVER!');
             return;
         }
-        console.log('next round!');
     }
+    console.log('next round!');
     addRandomColor();
     playerArray = [];
 }

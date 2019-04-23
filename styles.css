@@ -13,6 +13,7 @@ h1 {
   font-size: 55px;
   font-weight: 100;
   letter-spacing: 4px;
+  margin-bottom: 0px;
 }
  
 p { 
@@ -20,7 +21,7 @@ p {
 
 }
 
-section.welcome-area {
+.area-container {
     height: 100vh;
 
     display: flex;
@@ -230,14 +231,20 @@ h1.name:nth-child(3) {
     }
 }
 
-#next {
+/* #next {
   height: 100vh;
-}
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
 
 .color-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  /* transform: rotate(45deg); */
   margin: auto;
-  /* padding: 20px; */
+  padding: 20px;
   width: 500px;
   height: 500px;
 
@@ -251,10 +258,26 @@ h1.name:nth-child(3) {
   height: 45%;
   width: 45%;
   /* margin: 20px; */
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
 }
 
-.green { background-color: chartreuse; }
-.pink { background-color: pink; }
-.yellow { background-color: yellow; }
-.orange { background-color: orange; }
+.green { 
+  background-color: chartreuse;
+  border-radius: 250px 0px 0px 0px;
+}
+.pink { 
+  background-color: pink;
+  border-radius: 0px 250px 0px 0px; 
+}
+.yellow { 
+  background-color: yellow; 
+  border-radius: 0px 0px 0px 250px;
+}
+.orange { 
+  background-color: orange; 
+  border-radius: 0px 0px 250px 0px;
+}
+.green p, .pink p,
+.yellow p, .orange p { 
+  visibility: hidden; 
+}
