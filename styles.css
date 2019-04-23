@@ -281,3 +281,10 @@ h1.name:nth-child(3) {
 .yellow p, .orange p { 
   visibility: hidden; 
 }
+
+@media screen and (max-width: 600px){
+  .color-container {
+    height: 250px;
+    width: 250px;
+  }
+}
